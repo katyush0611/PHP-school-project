@@ -1,0 +1,330 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #00334d;
+	font-family: monospace;
+	justify-content: space-around;
+	margin: 3rem 4rem;
+}
+#logo {
+	height: 5rem;
+}
+#left_side_nav {
+	display: flex;
+	justify-content: space-around;
+	padding-left: 3%;
+	align-self: center;
+}
+#right_side_nav {
+	width: 10%;
+	align-self: center;
+}
+#students {
+	width: 45%;
+}
+#courses {
+	width: 45%;
+}
+a {
+	color: white;
+	font-family: monospace;
+	padding-top: 12%;
+	margin-left: 10%;
+}
+#stdimg {
+	height: 50px;
+	width: 50px;
+}
+#main_section {
+	background-color: #f2f2f2;
+	width: 95%;
+	justify-content: space-between;
+	display: flex;
+    border-radius: 2%;
+	flex-wrap: wrap;
+    margin-top: 2%;
+}
+#left_bar {
+	padding-top: 2rem; 
+	width: 35%;
+	display: flex;
+    justify-content: space-between;
+}
+.onestudent {
+	border: 1px solid black;
+    margin-bottom: 2.5rem;
+    border-radius: 5%;
+}
+main {
+	border: 1px solid black;
+    width: 60%;
+    border-radius: 5%;
+    position: relative;
+    margin: 3rem 3rem 0 0;
+}
+li:hover {
+	color: red;
+}
+#stdName {
+	font-family: monospace;
+	font-weight: bold;
+	text-shadow: 10%;
+	color: #00334d;
+    font-size: 3rem;
+	text-shadow: 1px 1px #ff1a1a;
+	margin-bottom: 2rem;
+}
+#cours_li {
+	padding-bottom: 3rem;
+}
+#signed-crs-img {
+	width: 30px;
+	height: 30px;
+}
+#signed-crs {
+	width: 60px;
+	height: 60px;
+}
+#list {
+	display: flex;
+	width: 100%;
+	margin-top: 5rem;
+	flex-wrap: wrap;
+}
+#list p {width: 100%;}
+#stdImg {
+	height: 12rem;
+	width: 6rem;
+	/*background-color: grey;*/
+}
+#submit-std {
+	margin-top: 5rem;
+	width: 30%;
+}
+#submit-crs {
+	width: 40%;
+	margin-top: 4rem;
+}
+.nav-title {
+	display: flex;
+}
+.plus {
+	color: red;
+	margin-left: .5rem;
+	height: 2.5rem;
+	width: 2.5rem;
+}
+#selectcourse {
+	width: 50px;
+}
+#sign-to-course{width: 25px; height: 25px; margin: 0; padding: 0;}
+#courseszone {
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	height: 85%;
+}
+#back-header {
+	background-color: #00334d;
+	width: 100%;
+	display: flex;
+	justify-content: center;	
+	padding-bottom: 3rem;		
+	font-weight: bold;
+	font-size: 20px;
+}
+header {
+	background-color: #ff1a1a;
+	font-family: monospace;
+	width: 90%;
+    height: 85%;
+    margin-top: 2rem; 
+    display: flex;
+    justify-content: space-between;
+}
+#main {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#crsmain {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 1rem;
+	justify-content: left;
+	width: 100%;
+}
+.signed-course {
+	margin: 0.5rem;
+    border: 3px dashed #ff1a1a;
+    background-color: white;
+    height: 10rem;
+    width: 10rem;
+    animation-name: example;
+    animation-duration: 1s;
+    background-color: #f3f7fc;
+    position: relative;
+}
+.onetitle {
+	font-family: monospace;
+    font-weight: bold;
+    text-shadow: 10%;
+    color: #00334d;
+    font-size: 115%;
+    text-shadow: 1px 1px #ff1a1a;
+}
+#signed-std {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#signed-std h3 {
+	font-family: monospace;
+    font-weight: bold;
+    text-shadow: 10%;
+    color: #00334d;
+    font-size: 3rem;
+    text-shadow: 1px 1px #ff1a1a;
+    margin-bottom: 3rem;
+}
+.showstd {
+	margin: 0 1.5rem;
+    border: 3px dashed #ff1a1a;
+    background-color: white;
+    height: 10rem;
+    width: 10rem;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    background-color: #f3f7fc;
+}
+.crsInfo {
+	width: 100%;
+	margin-top: 1.5rem;
+}
+#stdInfo {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5rem;
+    margin-left: 5rem;
+}
+.deletesignedstd {
+	font-size: 2rem;
+    position: absolute;
+    color: #ff1a1a;
+    top: -10px;
+    right: -8px;
+    width: 25%;
+    font-weight: bold;
+}
+.signedimg {
+	width: 65%;
+    height: 60%;
+    margin: 10% 20% 0;
+}
+@keyframes example {
+    from {width: 5%;}
+    to {width: 10rem;
+    	background-color: red;
+	}
+}
+#premision-btns {
+	position: absolute;
+    top: 5rem;
+    right: 6rem;
+	height: 10%;
+	position: absolute;
+}
+#course-img {
+	width: 15%;
+    height: 30%;
+	border-radius: 50%;
+	margin-right: 5rem; 
+}
+
+#student-img {
+	width: 45%;
+	height: 80%;
+	border-radius: 50%; 
+}
+.data {
+	flex-wrap: wrap;
+	width: 40%;
+}
+.personal-data {
+	margin: .5rem;
+}
+#img-input {
+	/*opacity: 0;*/
+	height: 60%;
+	width: 45%;
+}
+.data-row {
+	width: 100%;
+	display: flex;
+}
+#changeble {
+	margin-left: 1%;
+	display: flex;
+	width: 70%;
+	flex-wrap: wrap;
+}
+.dropdown {
+	position: absolute;
+    right: 5%;
+}		
+.container {
+	width: 20%;
+	display: none;
+	position: absolute;
+	top: 7rem;
+    right: 1rem;
+}
+.form-img {
+	width: 30%;
+    margin-right: 9rem;
+    height: 40vh;
+}
+#error-popup {
+	width: 55%;
+    height: 40vh;
+    border-radius: 3rem;
+    position: absolute;
+    top: 30%;
+    background-color: red;
+}
+#error-popup h1 {text-align: center; font-family: monospace; color: white; margin-top: 10%;}
+#error-popup button {background-color: white; background-color: white; display: block; margin: auto; margin-top: 3rem;}
+#error-popup button:hover {background-color: blue;}
+#list h2 {
+	width: 100%;
+	margin-left: 5rem;
+	font-family: monospace;
+	font-weight: bold;
+	text-shadow: 10%;
+	color: #00334d;
+    font-size: 3rem;
+	text-shadow: 1px 1px #ff1a1a;
+}
+.new-object-form {
+	display: inline-grid;
+    margin: 5% 5%;
+}
+.new-object-input {margin-bottom: 1.5rem;}
+#new-object-name {margin-bottom: 1.5rem;}
+.img-input {margin-bottom: 3rem;}
+#login-form {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	margin-top: 10rem;
+}
+.login-input {
+	width: 20%;
+	margin-right: 2%;
+	height: 5rem;
+}
+#login-form input[type='submit'] {
+	width: 10rem;
+}
